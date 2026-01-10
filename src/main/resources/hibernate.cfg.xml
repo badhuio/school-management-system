@@ -7,7 +7,7 @@
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/assessment</property>
         <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">@Badhu5218</property>
+        <property name="hibernate.connection.password"></property>
 
         <!-- JDBC connection pool (use built-in) -->
         <property name="hibernate.connection.pool_size">5</property>
@@ -27,3 +27,4 @@
         
     </session-factory>
 </hibernate-configuration>
+
