@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #343a40;
+}
+
+.sidebar .brand {
+    height: 56px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.sidebar a,
+.sidebar span {
+    color: #adb5bd;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: rgba(255,255,255,.1);
+    color: #fff;
+}
+
+.sidebar a:hover {
+    background-color: rgba(255,255,255,.05);
+    color: #fff;
+}
+
+.content-wrapper {
+    background-color: #f4f6f9;
+}
+
+.topbar {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+}
